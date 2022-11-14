@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(174, 174, 221);
+}
+
+button {
+    color:white;
+    width:30%;
+    padding: 5%;
+    background-color: purple;
+    border-radius: 25px;
+    margin-top: 20%;
+    border: 1px white solid;
+}
+
+.choices {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -10rem
+}
+.container {
+    border: 10px rgb(104, 33, 104) solid;
+    padding:5%;
+    text-align: center;
+    margin-top: 50px;
+    color:rgb(169, 79, 207);
+    font-size: 3rem;
+}
+
+.scoreboard {
+    color: white;
+    font-size: 3rem;
+    padding: 10px;
+    text-align: center;
+}
+
+.gameover {
+    background-color: Red;
+}
